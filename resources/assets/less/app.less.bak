@@ -1,0 +1,32 @@
+@import "bootstrap/bootstrap";
+
+@btn-font-weight: 300;
+@font-family-sans-serif: "Roboto", Helvetica, Arial, sans-serif;
+
+body, label, .checkbox label {
+	font-weight: 300;
+}
+
+p { margin: 10px 0;}
+
+.m-b { margin-bottom: 10px;}
+.m-b-sm { margin-bottom: 5px;}
+.m-b-md { margin-bottom: 15px;}
+.m-b-lg { margin-bottom: 30px;}
+.m-t { margin-top: 10px;}
+.m-t-sm { margin-top: 5px;}
+.m-t-md { margin-top: 15px;}
+.m-t-lg { margin-top: 30px;}
+
+h1 {
+  border-bottom: 1px solid black;
+  font-weight: 300;
+}
+
+label {font-weight: 600;}
+
+.table > thead > tr > th, .table > tbody > tr > th,
+.table > tfoot > tr > th, .table > thead > tr > td,
+.table > tbody > tr > td, .table > tfoot > tr > td {
+  vertical-align: middle;
+}

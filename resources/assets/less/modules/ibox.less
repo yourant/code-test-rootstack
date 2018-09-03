@@ -1,0 +1,41 @@
+.ibox {
+  .ibox-title {
+    background-image: url('/img/congruent_outline.png');
+    opacity: 0.75;
+    color: white;
+    border-color: #666;
+    border-bottom: 4px solid #6EC247;
+    .btn {
+      line-height: 25px;
+      position: relative;
+      bottom: 6px;
+      padding: 1px 15px;
+      color: white;
+      border-color: white;
+      border-width: 1px;
+      background-color: transparent;
+      &:hover { background-color: #6EC247; }
+    }
+    h5 {
+      font-size: 16px;
+    }
+  }
+  .ibox-content {
+//    background-color: transparent;
+    border-style: solid;
+  }
+}
+
+.i-box {
+  .ibox-content {
+    position: relative;
+    > .header-btn { position: absolute; top: 17px; right: 20px; }
+    
+    @media (max-width: 768px){
+      .text-left-xs {
+        text-align: left;
+      }
+    }
+    
+  }
+}

@@ -1,0 +1,82 @@
+body.skin-3 {
+  background: #F5F5F5;
+}
+.skin-3 {
+  #page-wrapper {
+    background-color: transparent;
+    padding-bottom: 40px;
+  }
+  .navbar-minimalize {
+    background: 0;
+    border-color: white;
+    color: white;
+  }
+  .nav-header {
+    padding: 15px;
+    background-color: #3E423B;
+  }
+  &.mini-navbar {
+    .nav-header {
+      background-color: #3E423B;
+      padding: 0;
+      border-bottom: 1px solid #e7eaec;
+    }
+    .logo-element {
+      padding: 10px 0;
+    }
+  }
+  .nav > li.active { background: inherit; }
+  .nav > li.active > a { color: inherit; font-family: "Avenir Heavy";}
+
+  .nav.navbar-top-links > li > a {
+    font-weight: 300;
+    color: white;
+    &:focus, &:hover {
+      background-color: #50564C;
+    }
+    .label {
+      font-family: inherit;
+    }
+  }
+  .navbar-static-top {
+    background-color: #3E423B;
+    border-bottom: 0px solid #CCC;
+  }
+  .navbar-static-side {
+    height: 100%;
+    background-color: #FFF;
+    .nav {
+      background-color: white;//rgba(255, 255, 255, 0.85);
+      & > li {
+        &.active {
+          background-color: white;
+          border-left: 4px solid #84CB63;
+          >a, >a:hover {
+            color: black;
+          }
+        }
+        > a {
+          font-weight: 300;
+          color: black;
+          &:focus, &:hover {
+            background: #EEE;
+            color: black;
+          }
+          >i { margin: 0;}
+        }
+      }
+      &.nav-second-level {
+        box-shadow: 0px 0px 3px 1px rgba(0, 0, 0, 0.1);
+        border-left: 2px solid;
+        li:last-child { margin-bottom: 0;}
+        >li>a {
+          color: black;
+          text-overflow: ellipsis;
+          white-space: nowrap;
+          overflow: hidden;
+          padding: 5px 10px;
+        }
+      }
+    }
+  }
+}

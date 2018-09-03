@@ -1,0 +1,2 @@
+.top-navigation #page-wrapper{margin-left:0}nav.navbar .navbar-header{width:100%}
+.search-form{position:absolute;width:40%;right:30%}.search-form .input-group{background-color:white}.search-form .input-group input{font-size:16px}.search-form .input-group input:focus{border:1px solid #e5e6e7}.search-form .input-group input:not(:placeholder-shown){text-transform:uppercase;font-size:18px}.search-form .input-group button{border:0;height:100%;padding:0 20px}@media (max-width:768px){.search-form{width:90%;top:1.1px;right:5%}}
